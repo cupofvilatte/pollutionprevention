@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: nunito;
+  }
+
+/* Style the navigation bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(6px);
+
+    padding: 15px 20px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+/* Style the logo */
+.logo {
+    display: block;
+    height: 120px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Style the navigation links */
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 100;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6b6b;
+}
+
+
+
+#content {
+    min-height: 1000px;
+}
+
+
+
+
+/* Style the footer */
+footer {
+    /* background-color: #ED820E; */
+    /* color: #fff; */
+    background-color: white;
+    color: #000;
+    padding: 30px 0 0 0;
+    font-size: 16px;
+    border-radius: 30px 30px 0 0;
+    margin-top: -30px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the footer content container */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Style each footer section */
+  .footer-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style headings within footer sections */
+  .footer-section h3 {
+    color: #ED820E;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style links within the footer sections */
+  .footer-section a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Style the social media icons */
+  .footer-section i {
+    margin-right: 5px;
+  }
+  
+  /* Style the footer links list */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style the footer links list items */
+  .footer-section li {
+    margin: 5px 0;
+  }
+  
+  /* Style the footer bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ED820E;
+    margin-top: 20px;
+    
+  }
+  
+  /* Style the copyright text */
+  .footer-bottom p {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+  }
