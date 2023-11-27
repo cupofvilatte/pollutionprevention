@@ -9,6 +9,8 @@ ul, li {
     margin: 0;
 }
 
+
+
 * {
     box-sizing: border-box;
     font-family: nunito;
@@ -75,6 +77,7 @@ ul, li {
     color: #000;
     font-weight: 100;
     transition: color 0.3s;
+    cursor: pointer;
 }
 
 .nav-links a:hover {
