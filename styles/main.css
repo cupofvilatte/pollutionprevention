@@ -58,9 +58,11 @@ ul, li {
 /* Style the logo */
 .logo {
     display: block;
-    height: 120px;
+    height: 70px;
     transition: 0.5s;
     cursor: pointer;
+
+    
 }
 
 /* Style the navigation links */
