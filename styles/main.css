@@ -12,9 +12,9 @@ ul, li {
 
 
 * {
-    box-sizing: border-box;
-    font-family: nunito;
-  }
+  box-sizing: border-box;
+  font-family: nunito;
+}
 
 
 #content {
@@ -81,7 +81,7 @@ ul, li {
 }
 
 .nav-links a:hover {
-    color: #ff6b6b;
+    color: #3DED97;
 }
 
 
@@ -113,7 +113,7 @@ footer {
   
   /* Style headings within footer sections */
   .footer-section h3 {
-    color: #ED820E;
+    color: #3DED97;
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -139,12 +139,16 @@ footer {
   .footer-section li {
     margin: 5px 0;
   }
+
+  .footer-section a:hover {
+    color: green;
+  }
   
   /* Style the footer bottom */
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #ED820E;
+    background-color: green;
     margin-top: 20px;
     
   }
